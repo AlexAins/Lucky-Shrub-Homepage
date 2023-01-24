@@ -3,7 +3,6 @@
 }
 
 * {
-    box-sizing: border-box;
     background-color: var(--background);
     scroll-behavior: smooth;
 }
@@ -34,4 +33,57 @@
 
 .navButtons a{
     text-decoration: none;
+}
+
+
+/* Services */
+#services{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 3fr 3fr 3fr;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "serviceHeading serviceHeading serviceHeading serviceHeading"
+    "design design design creation"
+    "design design design maintenance"
+    "insideP insideP outsideP outsideP";
+    border-radius: 25px;
+}
+
+#servicesHeading{
+    grid-area: serviceHeading;
+    border: solid black;
+}
+
+#designArt{
+    grid-area: design;
+    background-image: url(../images/landscape2.jpg);
+}
+
+#creationArt{
+    grid-area: creation;
+    background-image: url(../images/planting.jpg);
+}
+
+#maintenanceArt{
+    grid-area: maintenance;
+    background-image: url(../images/maintenance.jpg);
+}
+
+#indoorPlantsArt{
+    grid-area: insideP;
+    background-image: url(../images/indoorPlant.jpg);
+}
+
+#outdoorPlantsArt{
+    grid-area: outsideP;
+    background-image: url(../images/outdoorPlant.jpg);
+    background-position: center;
+}
+
+.service{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
