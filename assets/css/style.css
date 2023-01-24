@@ -1,0 +1,37 @@
+:root{
+    --background: #e5faf5;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--background);
+    scroll-behavior: smooth;
+}
+
+/* NavBar */
+.header{
+    display: flex;
+    border-bottom: 1px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px auto 50px auto;
+}
+
+#logo{
+    display: inline-block;
+    width: 50px;
+}
+
+.navButtons{
+    display: inline-block;
+}
+
+.navButtons li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.navButtons a{
+    text-decoration: none;
+}
