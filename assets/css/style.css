@@ -5,11 +5,17 @@
 * {
     background-color: var(--background);
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 main{
+    margin-top: 64px;
+}
+
+section{
     margin: 0px 50px;
 }
+
 
 /* NavBar */
 .header{
@@ -17,7 +23,11 @@ main{
     border-bottom: 1px solid;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0px auto 50px auto;
+    margin: 0px auto 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 #logo{
@@ -38,6 +48,29 @@ main{
 .navButtons a{
     text-decoration: none;
 }
+
+
+
+/* Banner */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#bannerHeading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
 
 
 /* Services */
