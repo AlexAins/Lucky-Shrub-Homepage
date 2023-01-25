@@ -9,7 +9,7 @@
 }
 
 main{
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 section{
@@ -32,7 +32,7 @@ section{
 #logo{
     display: inline-block;
     height: 60px;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .navButtons{
