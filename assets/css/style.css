@@ -69,7 +69,11 @@ section{
     top: 50%;
     transform: translate(-50%, -50%);
     background: none;
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
 }
+
 
 
 
