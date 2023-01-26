@@ -203,3 +203,33 @@ h1, h2, h3{
 
 
 /* Contact Us */
+#contactUs{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 2fr 2fr;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "contactHeading"
+    "contactPara"
+    "contactList";
+}
+
+#contactHeading{
+    grid-area: contactHeading;
+}
+
+#contactPara{
+    grid-area: contactPara;
+    display: flex;
+    justify-content: center;
+}
+
+#contactList{
+    grid-area: contactList;
+}
+
+.contactList li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
