@@ -5,6 +5,7 @@
     --mediumHeadingSize: 30px;
     --titleHeadingSize: 35px;
     --fontColor1: white;
+    --fontColor2: black;
 }
 
 * {
@@ -64,7 +65,7 @@ p{
 #logo{
     display: flex;
     height: 60px;
-    padding: 5px 0;
+    padding: 10px 10px;
 }
 
 .navButtons{
@@ -82,6 +83,13 @@ p{
 
 .navButtons a{
     text-decoration: none;
+    color: var(--fontColor2);
+    font-size: var(--textFontSize);
+    font-family: cursive;
+}
+
+.navButtons a:hover{
+    text-decoration: underline;
 }
 
 
