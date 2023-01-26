@@ -71,6 +71,7 @@ section{
 }
 
 #bannerHeading{
+    width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -78,7 +79,8 @@ section{
     background: none;
     font-family: cursive;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
 }
 
 
