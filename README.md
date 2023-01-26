@@ -19,4 +19,4 @@ This aims to provide an example of an accessible landing page for a retail busin
 The details about this imaginary company and the logos used are from the Meta Front-end Developer course, specifically the HTML and CSS in depth Module.
 
 ## Deployed Application
-Link to deployed webpage:  
+Link to deployed webpage: https://alexains.github.io/Lucky-Shrub-Homepage/ 
