@@ -20,6 +20,13 @@ h1, h2, h3{
     font-family: cursive;
 }
 
+.sectionHeading{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: solid #000;
+    border-width: 0 0 2px;
+}
 
 /* NavBar */
 .header{
@@ -106,11 +113,6 @@ h1, h2, h3{
 
 #servicesHeading{
     grid-area: serviceHeading;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: solid #000;
-    border-width: 0 0 2px;
 }
 
 #designArt{
@@ -188,11 +190,6 @@ h1, h2, h3{
 
 #aboutHeading{
     grid-area: aboutHeading;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: solid #000;
-    border-width: 0 0 2px;
 }
 
 #about1{
