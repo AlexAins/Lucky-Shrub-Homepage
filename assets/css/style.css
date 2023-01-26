@@ -239,7 +239,18 @@ h1, h2, h3{
 
 
 /* Footer */
+#footerIconEl{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
 
 #footerLogo{
     height: 100px;
+}
+
+#copyright{
+    padding: 25px;
+    text-align: center;
+    font-size: 10px;
 }
