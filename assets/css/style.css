@@ -192,9 +192,6 @@ p{
     color: var(--fontColor1);
 }
 
-.service:hover h3{
-    color:#000; 
-}
 
 
 /* About us */
@@ -255,6 +252,10 @@ p{
     display: inline-block;
     padding: 0px 100px;
     list-style: none;
+}
+
+.socialLink img{
+    max-height: 50px;
 }
 
 
