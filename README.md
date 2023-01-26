@@ -12,7 +12,7 @@ This landing page was made to show off proper HTML semantics and consolidated CS
 This aims to provide an example of an accessible landing page for a retail business.
 
 #### Screenshot of Page:
-![alt text]()
+![alt text](./assets/images/127.0.0.1_5500_index.html%20(2).png)
 
 ## Credits
 
