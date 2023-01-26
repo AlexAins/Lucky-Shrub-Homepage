@@ -226,10 +226,20 @@ h1, h2, h3{
 
 #contactList{
     grid-area: contactList;
+    display: flex;
+    justify-content: center;
 }
 
 .contactList li{
     display: inline-block;
     padding: 0px 20px;
     list-style: none;
+}
+
+
+
+/* Footer */
+
+#footerLogo{
+    height: 100px;
 }
