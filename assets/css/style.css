@@ -46,6 +46,9 @@ p{
     border-width: 0 0 2px;
 }
 
+
+
+
 /* NavBar */
 .header{
     border-bottom: 1px solid;
@@ -91,6 +94,7 @@ p{
 .navButtons a:hover{
     text-decoration: underline;
 }
+
 
 
 
@@ -202,8 +206,8 @@ p{
 
 
 
-/* About us */
 
+/* About us */
 #aboutUs{
     display: grid;
     grid-template-columns: 1fr 10vh 1fr;
@@ -225,6 +229,7 @@ p{
 #about2{
     grid-area: about2;
 }
+
 
 
 
@@ -265,6 +270,7 @@ p{
 .socialLink img{
     max-height: 50px;
 }
+
 
 
 
