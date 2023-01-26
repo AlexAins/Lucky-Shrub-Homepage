@@ -19,24 +19,31 @@ section{
 
 /* NavBar */
 .header{
-    display: flex;
     border-bottom: 1px solid;
     padding: 0 15px;
-    margin: 0px auto 15px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
 }
 
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 #logo{
-    display: inline-block;
+    display: flex;
     height: 60px;
     padding: 5px 0;
 }
 
 .navButtons{
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
 }
 
 .navButtons li{
@@ -94,7 +101,6 @@ section{
 
 #servicesHeading{
     grid-area: serviceHeading;
-    border: solid black;
 }
 
 #designArt{
